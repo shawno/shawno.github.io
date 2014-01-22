@@ -4,17 +4,11 @@
         <title>resume handlebars test</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
-        <script type="text/javascript" src="../js/vendor/handlebars-v1.3.0.js" />
+        <script type="text/javascript" src="../js/vendor/handlebars-v1.3.0.js" /></script>
 
     </head>
     <body>
         <div id="jobs-target"></div>
-
-         
-
-        
-        
-
 
         <script id="job-template" type="text/x-handlebars-template">
             <p>testing template</p>
@@ -39,6 +33,13 @@
             
         </script -->
 
-        <script type="text/javascript" src="../js/main.js" />
+        <script>
+            $( document ).ready(function() {
+                var source = $("#job-template").html();
+                var template = Handlebars.compile(source);
+                alert(template);
+                $("#jobs-target").html(template);    
+            });
+        </script>
     </body>
 </html>
