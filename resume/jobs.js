@@ -1,4 +1,5 @@
-var jobs =  [
+var jobsVar =  {
+    jobs : [
         {
             "company" : "Mountain Equipment Co-op",
             "position" : "Senior Software Developer - e-commerce",
@@ -27,4 +28,4 @@ var jobs =  [
             "responsibilities" : "Managed a regulatory reporting project from research to release. Tasks included customer interviews, design, prototyping, user testing, implementation, QA and rollout. Collaborated closely with customers, users, and regulators externally, as well as the product owner, development, support, training, and documentation teams internally."
             
         }
-    ];
+    ]};

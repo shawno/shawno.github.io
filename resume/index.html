@@ -11,16 +11,17 @@
         <div id="jobs-target"></div>
 
         <script id="job-template" type="text/x-handlebars-template">
-            <p>testing template</p>
-        </script>
-
-        <!-- script type="text/x-nothing">
-            {{#jobs}}
+            {{#each jobs}}
                 <article>
                     <h2 class="position">{{position}}</h2>
                     <h3>{{company}} - {{location}}</h3>
                     <h4>{{startDate}} - 
-                        {{#if ongoing ? 'Present' : endDate}}</h4>
+                        {{#if ongoing}}
+                            Present
+                        {{else}}
+                            {{endDate}}
+                        {{/if}}
+                    </h4>
                     
                     <div class="more mobile-only">details</div>
                 
@@ -29,16 +30,18 @@
                     </div>
 
                 </article>
-            {{/jobs}}
+            {{/each}}
             
-        </script -->
+        </script>
+
+        <script src="jobs.js"></script>
 
         <script>
             $( document ).ready(function() {
+                // var jobs = $.getJSON("jobs.js");
                 var source = $("#job-template").html();
                 var template = Handlebars.compile(source);
-                alert(template);
-                $("#jobs-target").html(template);    
+                $("#jobs-target").html(template(jobsVar));    
             });
         </script>
     </body>
