@@ -1,0 +1,59 @@
+/* mobile.scss */
+body { padding: 0; margin: 0; background: #333; min-height: 385px; }
+
+#index-bg { padding: 0; margin: 0; position: fixed; top: 0; left: 0; z-index: -1; overflow: none; width: 100%; }
+
+#index-name { background: rgba(255, 255, 255, 0.8); text-align: center; position: absolute; width: 100%; top: 0; left: 0; padding: 0.1em 0; }
+
+#index-nav { position: absolute; left: 0; width: 100%; text-align: center; background: rgba(0, 0, 0, 0.5); margin-top: 19%; }
+#index-nav a { text-decoration: none; color: #eee; }
+#index-nav a :hover { background: rgba(255, 255, 255, 0.7); box-shadow: 0 0 10px #aaa; color: #323232; }
+#index-nav a div:hover, #index-nav a img:hover, #index-nav a h1:hover { background: none; box-shadow: none; }
+#index-nav h1 { font-size: 15px; padding-top: 4px; }
+
+.button-icon { padding-top: 6px; height: 57%; }
+.button-icon img { width: auto; height: 100%; }
+
+.index-nav-button { background: rgba(0, 0, 0, 0.7); width: 70px; height: 70px; border: 2px solid #333; border-radius: 10px; display: inline-block; margin: 10px; }
+
+body { font-size: 13pt; font-family: arial; color: #666; padding: 1em; transition: all .5s ease; -moz-transition: all .5s ease; /* Firefox 4 */ -webkit-transition: all .5s ease; /* Safari and Chrome */ -o-transition: all .5s ease; /* Opera */ }
+
+header { border-bottom: 4px double #555; }
+
+.shawnoneill { letter-spacing: -0.05em; text-transform: uppercase; font-family: Quicksand, sans-serif; font-size: 2.3em; }
+.shawnoneill .squeeze { letter-spacing: -0.13em; }
+
+/*********** RESUME STYLEZ ************/
+body { font-size: 13pt; font-family: arial; color: #666; padding: 1em; background: #FFF; transition: all .5s ease; -moz-transition: all .5s ease; /* Firefox 4 */ -webkit-transition: all .5s ease; /* Safari and Chrome */ -o-transition: all .5s ease; /* Opera */ }
+
+header { border-bottom: 4px double #555; }
+
+#resume-name { width: 100%; margin-top: -0.1em; }
+
+#col-left h1 { font-size: 1.4em; margin-top: 0.5em; text-transform: uppercase; }
+
+h2 { font-size: 1.3em; color: darkblue; margin-top: 0.3em; margin-bottom: 0.2em; }
+
+h3 { font-size: 1.2em; margin-top: 0.2em; margin-bottom: 0.1em; }
+
+h4 { font-style: italic; }
+
+h5 { font-weight: bold; float: left; margin-right: 0.5em; padding-top: 0.5em; }
+
+section { border-bottom: 2px solid #999; padding-bottom: 1em; }
+
+article { padding-bottom: 0.5em; border-bottom: 1px dotted #aaa; }
+
+#logitech, #hci, #mun { border-bottom: none; }
+
+ul li { margin-bottom: 0.2em; width: 100%; }
+
+.more { float: right; position: relative; top: -1em; text-decoration: underline; color: darkblue; cursor: pointer; }
+
+.details { display: none; }
+
+p { padding-top: 0.3em; }
+
+.print-only { display: none; }
+
+.mobile-only { display: block; }

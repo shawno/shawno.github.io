@@ -1,70 +1,22 @@
-/* ==========================================================================
-   HTML5 Boilerplate PRINT styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
+#resume-name { border-right: 2px solid #999; width: 73.9%; margin-bottom: 0; }
 
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+#contact-info { position: absolute; top: 11px; right: 2em; width: 20%; text-align: right; line-height: 0.8em; }
+#contact-info p { padding-top: 0.5em; }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+header { margin-bottom: -0.5em; }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+body { font-size: 10pt; }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+#col-right { width: 25%; }
 
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
+#education, #interests, #mun { margin-bottom: 0; padding-bottom: 0; }
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+#employment h2, #employment h3, #education h3, #education h4 { display: inline; }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+#hci h4 { display: none; }
 
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
+#languages h2, #tools h2, #interests h2 { margin-top: 0.3em; }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+.screen-only, .mobile-only { display: none; }
 
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+.print-only { display: block; }

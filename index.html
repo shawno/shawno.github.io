@@ -6,31 +6,121 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Shawn O'Neill - Web Developer - Vancouver, BC</title>
+        <meta name="description" content="Shawn O'Neill is a web developer living in Vancouver BC. This is his website. He'd like to chat about Cycling, Coworking, Ruby on Rails, Java, RWD, Mobile, and SEO">
         <meta name="viewport" content="width=device-width">
 
+        <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+        
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/mobile.css" />
+        <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 700px)" />
     </head>
     <body>
         <!--[if lt IE 9]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <h1>LOLOL</h1>
-        
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
-        <script type="text/javascript" src="js/vendor/handlebars-v1.3.0.js" />
+        <div data-picture data-alt="Chicago from the train platform" id="index-bg" >
+            <div data-src="img/bg_tiny.jpg">    </div>
+            <div data-src="img/bg_small.jpg"    data-media="(min-width: 400px)"></div>
+            <div data-src="img/bg_medium.jpg"   data-media="(min-width: 700px)"></div>
+            <div data-src="img/bg_large.jpg"    data-media="(min-width: 1200px)"></div>
 
-        <script src="js/main.js"></script>
+            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+            <noscript><img src="img/bg_tiny.jpg" alt="Chicago from the train platform"></noscript>
+        </div>
+            
+        <div class="shawnoneill" id="index-name">
+            Sh<span class="squeeze">a</span>wn O'Neill
+        </div>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        <nav id="index-nav">
+            <ul>
+                <a href="http://ca.linkedin.com/in/shawnoneillca/" target="_blank">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/linkedin.png" alt="Sketch of the LinkedIn logo">
+                        </div>
+                        <h1 class="button-text">LinkedIn</h1>
+                    </li>
+                </a>
+                <a href="resume.html"> 
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/resume.png" alt="Sketch of a sheet of paper">
+                        </div>
+                        <h1 class="button-text">Resume</h1>
+                    </li>
+                </a>
+                <a href="mailto:shawn@shawnoneill.ca" target="_blank">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/email.png" alt="Sketch of an envelope">
+                        </div>
+                        <h1 class="button-text">Email</h1>
+                    </li>
+                </a>
+            
+                <br/>
+            
+                <a href="http://www.getfunl.com" target="_blank">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/funl.png" alt="Sketch of the Funl logo">
+                        </div>
+                        <h1 class="button-text">Funl</h1>
+                    </li>
+                </a>
+                <a href="http://blog.shawno.ca">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/blog.png" alt="Sketch of the Blogger logo">
+                        </div>
+                        <h1 class="button-text">Blog</h1>
+                    </li>
+                </a>
+                <a href="http://twitter.com/shawnoneill_ca" target="_blank">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/twitter.png" alt="Sketch of the Twitter bird logo">
+                        </div>
+                        <h1 class="button-text">Twitter</h1>
+                    </li>
+                </a>
+            
+                <br/>
+            
+                <a href="http://workatcommonground.com" target="_blank">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/cg.png" alt="Sketch of a light bulb">
+                        </div>
+                        <h1 class="button-text">Coworking</h1>
+                    </li>
+                </a>
+                <a href="http://app.strava.com/athletes/436112" target="_blank">
+                    <li class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/strava.png" alt="Sketch of a bicycle">
+                        </div>
+                        <h1 class="button-text">Strava</h1>
+                    </li>
+                </a>
+                <a href="tel:+1-778-997-7673">
+                    <li id="nav-phone" class="index-nav-button">
+                        <div class="button-icon">
+                            <img src="img/icons/phone.png" alt="Sketch of a mobile phone">
+                        </div>
+                        <h1 class="button-text">Call me</h1>
+                    </li>
+                </a>
+            </ul>
+        </nav>
 
+        <script src="js/vendor/matchmedia.js"></script>       
+        <script src="js/vendor/picturefill.js"></script>
+        <script src="js/analytics.js"></script>
     </body>
 </html>

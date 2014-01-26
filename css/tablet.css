@@ -1,0 +1,35 @@
+header { margin: 0 1em; }
+
+.shawnoneill { font-size: 3.5em; }
+
+/*********** RESUME STYLEZ ************/
+.details { display: block; }
+
+#resume-name { width: 83%; font-size: 4em; }
+
+#contact-info { position: absolute; top: 0.4em; right: 2em; text-align: right; }
+
+#twitter { margin: 0 5%; }
+
+#col-left { float: left; width: 73%; border-right: 2px solid #999; margin-bottom: 1em; }
+
+#col-right { float: right; width: 26%; margin-left: 0.5%; }
+
+section { border: none; }
+
+article { border-bottom: none; }
+
+#col-left section { border-left: 2px solid #999; padding: 0 0 0 0.3em; margin: 1em; }
+#col-left section h1 { transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -moz-transform: rotate(-90deg); /* Firefox */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */ position: relative; width: 0px; left: -1em; }
+
+#employment h1 { top: 7.2em; }
+
+#projects h1 { top: 5.5em; }
+
+#education h1 { top: 6em; }
+
+#funl, #hci, #cooper { margin-top: -1em; }
+
+#col-right h2 { margin-top: 1.3em; }
+
+.mobile-only { display: none; }
