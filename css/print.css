@@ -19,4 +19,6 @@ body { font-size: 10pt; }
 
 .screen-only, .mobile-only { display: none; }
 
+#print-button { display: none; }
+
 .print-only { display: block; }

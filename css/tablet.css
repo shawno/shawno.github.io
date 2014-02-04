@@ -3,11 +3,13 @@ header { margin: 0 1em; }
 .shawnoneill { font-size: 3.5em; }
 
 /*********** RESUME STYLEZ ************/
+body { margin-top: 0.5em; }
+
 .details { display: block; }
 
 #resume-name { width: 83%; font-size: 4em; }
 
-#contact-info { position: absolute; top: 0.4em; right: 2em; text-align: right; }
+#contact-info { position: absolute; top: 1em; right: 2em; text-align: right; }
 
 #twitter { margin: 0 5%; }
 
@@ -31,5 +33,8 @@ article { border-bottom: none; }
 #funl, #hci, #cooper { margin-top: -1em; }
 
 #col-right h2 { margin-top: 1.3em; }
+
+#print-button { display: block; position: fixed; top: 0; width: 70px; text-align: center; margin-left: 45%; border: 1px solid #aaa; border-top: 0; background: #ddd; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; color: #00a; }
+#print-button:hover { cursor: pointer; background: #eee; box-shadow: 0 0 5px #444; transition: all 300ms ease-in; }
 
 .mobile-only { display: none; }
