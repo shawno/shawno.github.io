@@ -28,7 +28,7 @@ body { font-size: 13pt; font-family: arial; color: #666; padding: 1em; backgroun
 
 header { border-bottom: 4px double #555; }
 
-#resume-name { width: 100%; margin-top: -0.1em; }
+#resume-name { width: 100%; margin-top: -0.1em; margin-left: -3px; }
 
 #col-left h1 { font-size: 1.4em; margin-top: 0.5em; text-transform: uppercase; }
 
@@ -43,6 +43,8 @@ h5 { font-weight: bold; float: left; margin-right: 0.5em; padding-top: 0.5em; }
 section { border-bottom: 2px solid #999; padding-bottom: 1em; }
 
 article { padding-bottom: 0.5em; border-bottom: 1px dotted #aaa; }
+article p { line-height: 1.2em; }
+article ul { list-style-type: disc; padding-left: 1.5em; }
 
 #logitech, #hci, #mun { border-bottom: none; }
 

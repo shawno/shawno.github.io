@@ -7,7 +7,7 @@ body { margin-top: 0.5em; }
 
 .details { display: block; }
 
-#resume-name { width: 83%; font-size: 4em; }
+#resume-name { width: 83%; margin-left: 0; font-size: 4em; }
 
 #contact-info { position: absolute; top: 1em; right: 2em; text-align: right; }
 
@@ -30,7 +30,7 @@ article { border-bottom: none; }
 
 #education h1 { top: 6em; }
 
-#funl, #hci, #cooper { margin-top: -1em; }
+#mec, #hci, #cooper { margin-top: -1em; }
 
 #col-right h2 { margin-top: 1.3em; }
 

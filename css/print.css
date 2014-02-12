@@ -13,8 +13,6 @@ body { font-size: 10pt; }
 
 #employment h2, #employment h3, #education h3, #education h4 { display: inline; }
 
-#hci h4 { display: none; }
-
 #languages h2, #tools h2, #interests h2 { margin-top: 0.3em; }
 
 .screen-only, .mobile-only { display: none; }
