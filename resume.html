@@ -4,21 +4,15 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Shawn O'Neill - Resume</title>
-
 		<meta name="viewport" content="width=device-width" />
-		
 		<link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/mobile.css" />
-		<link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 700px)" />
-		
-		<link rel="stylesheet" href="css/tablet.css" media="print" />
-		<link rel="stylesheet" href="css/print.css" media="print" />
-				
+		<link rel="stylesheet" href="css/all.css" />
 	</head>
 
 <body>
-
+	<!--[if lt IE 10]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 	<header>
 		<div class="shawnoneill" id="resume-name">
 			Sh<span class="squeeze">a</span>wn&nbsp;O'Neill
@@ -261,11 +255,23 @@
 		</section>
 	</div>
 
-	<div id="print-button" onclick="window.print();">Print</div>
-
+	<!-- <div id="print-button" onclick="window.print();">Print</div>
+ -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
-	<script src="js/analytics.js"></script>
+	<script>/*  Google Analytics Tracking code */
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-33215734-1']);
+	_gaq.push(['_setDomainName', 'shawno.ca']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
 	<script src="js/resume.js"></script>
 
 </body>

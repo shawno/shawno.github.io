@@ -7,6 +7,12 @@ body{
 	min-height:385px;
 }
 
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
 #index-bg{
 	padding:0;
 	margin:0;
@@ -54,7 +60,10 @@ body{
 	
 	h1 {
 		font-size:15px;
-		padding-top:4px;
+		font-weight:normal;
+		padding: 0;
+		margin: 0;
+		padding-top: 0.2em;
 	}
 }
 
@@ -78,22 +87,6 @@ body{
 	margin: 10px;
 }
 
-body{
-	font-size: 13pt;
-	font-family: arial;
-	color: #666;
-	padding: 1em;
-	
-	transition: all .5s ease;
-	-moz-transition: all .5s ease; /* Firefox 4 */
-	-webkit-transition: all .5s ease; /* Safari and Chrome */
-	-o-transition: all .5s ease; /* Opera */
-}
-
-header{
-	border-bottom: 4px double #555;
-}
-
 .shawnoneill{
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
@@ -114,29 +107,32 @@ body{
 	font-size: 13pt;
 	font-family: arial;
 	color: #666;
-	padding: 1em;
 	background:#FFF;
-	
+	padding: 1em;	
 	transition: all .5s ease;
-	-moz-transition: all .5s ease; /* Firefox 4 */
-	-webkit-transition: all .5s ease; /* Safari and Chrome */
-	-o-transition: all .5s ease; /* Opera */
 }
 
 header{
+	p{
+		padding:0;
+		margin:0;
+	}
 	border-bottom: 4px double #555;
 }
 
 #resume-name{
 	width: 100%;
-	margin-top: -0.1em;
+	margin-top: 0;
 	margin-left: -3px;
 }
 
 #col-left h1{
 	font:{
 		size: 1.4em;
+		weight:lighter;
 	}
+	margin:0;
+	padding:0;
 	margin-top: 0.5em;
 	text-transform: uppercase;
 }
@@ -144,6 +140,7 @@ header{
 h2{
 	font:{
 		size: 1.3em;
+		weight:lighter;
 	}
 	color: darkblue;
 	margin:{
@@ -155,6 +152,7 @@ h2{
 h3{
 	font:{
 		size: 1.2em;
+		weight:lighter;
 	}
 	margin:{
 		top:0.2em;
@@ -164,6 +162,9 @@ h3{
 
 h4{	//date ranges
 	font-style: italic;
+	font-weight:lighter;
+	margin:0;
+	padding:0;
 }
 
 h5{
