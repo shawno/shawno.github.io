@@ -1,0 +1,8 @@
+@import '../stylesheets/normalize';
+@import '../stylesheets/mobile';
+@media screen and (min-width: 700px), print{
+	@import '../stylesheets/tablet';
+}
+@media print{
+	@import '../stylesheets/print';	
+}
