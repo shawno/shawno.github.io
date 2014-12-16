@@ -13,6 +13,12 @@ ul{
 	list-style:none;
 }
 
+svg{
+	width: 100%;
+	height: 100%;
+	fill: #eee;
+}
+
 #index-bg{
 	padding:0;
 	margin:0;
@@ -46,13 +52,16 @@ ul{
 		text-decoration:none;
 		color:#eee;
 		
-		:hover{
+		:hover, :focus{
 			background: rgba(255,255,255,0.7);
 			box-shadow:0 0 10px #aaa;
 			color: rgb(50,50,50);
+			svg{
+				fill: rgb(50,50,50);
+			}
 		};
 		
-		div:hover, img:hover, h1:hover{
+		div:hover, h1:hover, svg:hover{
 			background:none;
 			box-shadow:none;
 		}
