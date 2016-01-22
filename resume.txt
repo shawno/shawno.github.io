@@ -1,0 +1,173 @@
+EMPLOYMENT
+
+Front-End Web Development Team Lead
+Mountain Equipment Co-op - Vancouver, BC
+March 2015 - Present
+
+I lead the front-end development team for a number of MEC's digital properties including the ecommerce store, MEC.ca.
+
+In my first year in the role I executed several initiatives to increase developer throughput, improve code maintainability, and deliver a consistent brand experience:
+
+- Pioneered the first MEC digital style guide, and pattern lab. This allows front-end web development to scale exponentially, leveraging code and design decisions across the brand, for a uniform experience in less time.
+- Drove the adoption and organizational education on Atomic Design principles.
+- Reinvented the design and development workflow, focussing on rapid, collaborative prototyping in code, over designing static comps in Photoshop.
+- Created the first MEC Web Performance Budget: a set of targets for page load times, and corresponding metrics around user-perceived page speed.
+- Instituted a multi-tiered browser, OS, and mobile device support model.
+- Built and managed the Front-End development team from a sole developer, to a team of 6 developers, plus myself.
+- Managed code repositories and the Gitflow branching strategy, making for highly robust repos.
+
+
+Senior Software Developer - E-commerce
+Mountain Equipment Co-op - Vancouver, BC
+March 2013 - March 2015
+
+I help MEC build and maintain various digital properties and apps.
+
+I am a firm advocate for usability, and the comprehensive member experience across all MEC digital properties.
+
+In my first quarter I piloted the development effort on the rebranding of MEC.ca using a heavily customized build of Twitter Bootstrap. This launched smoothly to over four million members, coinciding with the complete rebranding of MEC in September 2013. Throughout the project I collaborated closely with our design and content teams, providing interaction design and usability guidance - particularly for touch, mobile, and tablet.
+
+
+Full-Stack Web Software Engineering
+Freelance - Vancouver, BC
+October 2012 - Present
+
+I help companies with software development projects ranging from product management to complete rebuilds, and everything in between.
+Services Include:
+- Product roadmap generation
+- Backlog grooming and release planning
+- Platform and vendor selection
+- User Experience (UX) and Interaction Design (IxD)
+- Responsive web design (RWD) and development
+- Mobile web optimization
+- Search Engine Optimization (SEO)
+- Google Analytics integration
+- QA and rollout
+
+
+Co-Founder
+Funl - Vancouver, BC
+November 2011 - December 2013
+
+Designed and developed a mobile-first, responsive web app for setting personal goals and building good habits to reach them. Created company vision and strategy while managing design, development, marketing, funding, and support.
+
+
+Senior Software Engineer (Remote)
+Verafin - Vancouver, BC
+August 2010 - August 2012
+
+Managed a regulatory reporting project from research to release. Tasks included customer interviews, design, prototyping, user testing, implementation, QA and rollout. Collaborated closely with customers, users, and regulators externally, as well as the product owner, development, support, training, and documentation teams internally.
+
+Researched remote collaboration tools and processes for product development.
+Acted as a Subject Matter Expert on Bank Security Act (BSA) E-Filing.
+User Interface Developer/Designer
+
+
+Verafin - St. John's, NL
+October 2008 - August 2010
+
+Member of Interaction Design team. Projects included Alert and Case management. 
+
+Led development of a Vendor Management module with a small team; interviewed and supervised Computer Engineering work term students.
+
+Overhauled suspicious activity reports for greater usability, editability and database persistence. This was deployed to over 600 financial institutions.
+
+
+New Technology Investigation Intern
+Logitech - Fremont, CA
+September 2007 - December 2007
+
+Investigated and prototyped tracking an unsynchronized IR LED in unfiltered video frames with MATLAB. Designed and successfully implemented a tracking algorithm using spatio-temporal blob analysis.
+
+
+PROJECTS
+
+Human Computer Interaction through Video Tracking
+May 2007 - April 2008
+
+Eye Tracking Assistive Technology
+Individual senior-year project on eye-tracking as an assistive technology for cursor interaction for users with limited mobility. Used IR illumination and a filtered camera.
+
+Gesture-Tracking Presentation Aid
+Tracked hand gestures via webcam to control a cursor in real time. Allows the speaker to face the audience, providing a more natural means of presenting. Used skin-tone segmentation in full colour video with no optical filtering.
+
+
+EDUCATION
+
+Interaction Design Practicum
+Cooper - San Francisco, CA
+November 2011
+
+An intensive, hands-on workshop in goal-directed design for digital products.
+
+
+Bachelor of Computer Engineering
+Memorial University of Newfoundland - St. John's, NL
+May 2008
+
+IEEE Award for top senior project demo in the Electrical and Computer Engineering class of 2008. Represented Memorial University at the 2006 and 2008 Computer Science Games. Engineering Dean's List for 2004-2005.
+
+
+SKILLS
+
+- User Experience Design
+- User Interface Design
+- Mobile-First Design
+- Responsive Layouts
+- Web Performance
+
+- Object Oriented Design
+- Java EE Development
+- Agile Methodologies
+
+- Image Processing
+- French Proficiency
+
+
+LANGUAGES
+
+- HTML5
+- CSS 3
+- LESS/SASS
+- JavaScript
+- JSP
+- Handlebars
+- Java
+- Ruby on Rails
+- Backbone.js
+- MS SQL
+- C/C++
+
+TOOLS
+
+- Adobe Creative Suite
+
+- Jira
+- Confluence
+- Pivotal Tracker
+- Salesforce
+
+- IntelliJ Idea
+- Eclipse
+- TextMate
+- Sublime Text
+
+- Subversion
+- Git/Github
+- TeamCity
+- Jenkins
+- Maven
+- Grunt/Gulp
+
+- Heroku
+- Amazon S3
+- Twitter Bootstrap
+
+
+INTERESTS
+
+- Entrepreneurship
+- Sustainable Living
+- Cycling and Bike Repair
+- Bike Touring
+- Snowboarding
