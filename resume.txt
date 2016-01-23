@@ -4,7 +4,14 @@ Front-End Web Development Team Lead
 Mountain Equipment Co-op - Vancouver, BC
 March 2015 - Present
 
-I lead the front-end development team for a number of MEC's digital properties including the ecommerce store, MEC.ca.
+I lead the front-end development team at MEC. 
+Various digital properties including the ecommerce store, MEC.ca.
+
+-- Complete rebuild + replatform of the website
+-- coordinate with stakeholders, BAs, PMs, designers, consultants
+-- represent the user interface in meetings with operations, marketing, service center, back-end, qa.
+-- estimation, planning, backlog refinement, scope negotiation
+
 
 In my first year in the role I executed several initiatives to increase developer throughput, improve code maintainability, and deliver a consistent brand experience:
 
@@ -110,18 +117,40 @@ IEEE Award for top senior project demo in the Electrical and Computer Engineerin
 
 SKILLS
 
+- Software Engineering
+
+- Team Leadership
+- Workflow Optimization
+- Software Estimation
+
+- Solution Architecture
+- Product Roadmapping
+- Release Planning
+- Project Management
+- Product Management
+- User Requirements Gathering
+- Backlog Prioritization
+- Product-Market Fit Testing
+- MVP Iteration
+- Lean Business Methodology
+
+
 - User Experience Design
 - User Interface Design
+- Atomic Design
+
 - Mobile-First Design
 - Responsive Layouts
-- Web Performance
+- Web Performance Optimization
+- Responsive Images
+- SEO
+- A/B Testing
 
 - Object Oriented Design
 - Java EE Development
 - Agile Methodologies
+- Test Driven Development
 
-- Image Processing
-- French Proficiency
 
 
 LANGUAGES
@@ -132,37 +161,38 @@ LANGUAGES
 - JavaScript
 - JSP
 - Handlebars
+- Backbone.js
+
 - Java
 - Ruby on Rails
-- Backbone.js
-- MS SQL
 - C/C++
+- MS SQL
+
+- French
 
 TOOLS
 
-- Adobe Creative Suite
-
-- Jira
+- JIRA
 - Confluence
 - Pivotal Tracker
 - Salesforce
 
 - IntelliJ Idea
 - Eclipse
-- TextMate
 - Sublime Text
 
 - Subversion
 - Git/Github
-- TeamCity
 - Jenkins
 - Maven
 - Grunt/Gulp
 
 - Heroku
 - Amazon S3
-- Twitter Bootstrap
 
+- Google Analytics
+- Optimizely
+- SpeedCurve
 
 INTERESTS
 
