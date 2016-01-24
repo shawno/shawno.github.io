@@ -89,14 +89,32 @@ Investigated and prototyped tracking an unsynchronized IR LED in unfiltered vide
 
 PROJECTS
 
-Human Computer Interaction through Video Tracking
-May 2007 - April 2008
+Strava-powered Bike Blog (bikecanada.shawno.ca)
+Spring 2015
+- Developed an open source minimalist bike blogging platform using the Strava API, Instagram, Google Maps API, Ruby on Rails.
+- Repo URL, 
+
+Emily Schmid - Designer (EmilySchmid.com)
+Winter 2015
+- Simple brochure site for a Fashion Designer powered by Jekyll, hosted on Guthub Pages.
+
+Winner - Morbify Hackathon (http://www.mobify.com/go/morbify/)
+Winter 2013
+- Led a team of 4. Objective: Gamify the mundane using mobile web.
+- Created a mobile web app to report garbage to the city using Ruby on Rails, Twitter Bootstrap, HTML5 geolocation and image uploads from a user's camera.
+
+Receiptless - Startup Weekend UBC
+Fall 2012
+- Led a team of 9 through the formation of an expense-tracking startup venture.
+- Deliverables included branding, design, social media marketing strategy, and a functional iOS app.
 
 Eye Tracking Assistive Technology
-Individual senior-year project on eye-tracking as an assistive technology for cursor interaction for users with limited mobility. Used IR illumination and a filtered camera.
+Spring 2008
+- Built a pupil-tracking, cursor interaction system for users with complete paralysis.
 
 Gesture-Tracking Presentation Aid
-Tracked hand gestures via webcam to control a cursor in real time. Allows the speaker to face the audience, providing a more natural means of presenting. Used skin-tone segmentation in full colour video with no optical filtering.
+Fall 2007
+- Tracked hand gestures to control a slide show presentation. Used a standard webcam and skin-tone segmentation in HSV colour space.
 
 
 EDUCATION
@@ -109,10 +127,12 @@ An intensive, hands-on workshop in goal-directed design for digital products.
 
 
 Bachelor of Computer Engineering
-Memorial University of Newfoundland - St. John's, NL
-May 2008
+Memorial University of Newfoundland
+Class of 2008
 
-IEEE Award for top senior project demo in the Electrical and Computer Engineering class of 2008. Represented Memorial University at the 2006 and 2008 Computer Science Games. Engineering Dean's List for 2004-2005.
+- IEEE Award for top senior project demo across Electrical and Computer Engineering classes. 
+- Represented Memorial University at the 2006 and 2008 Computer Science Games. 
+- Dean's List.
 
 
 SKILLS
@@ -147,6 +167,7 @@ SKILLS
 - A/B Testing
 
 - Object Oriented Design
+- MVC Software Design
 - Java EE Development
 - Agile Methodologies
 - Test Driven Development
@@ -168,13 +189,13 @@ LANGUAGES
 - C/C++
 - MS SQL
 
-- French
 
 TOOLS
 
 - JIRA
 - Confluence
 - Pivotal Tracker
+- Asana
 - Salesforce
 
 - IntelliJ Idea

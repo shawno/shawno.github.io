@@ -16,16 +16,29 @@
                     <h2 class="position">{{position}}</h2>
                     <h3>{{company}} - {{location}}</h3>
                     <h4>{{startDate}} - 
-                        {{#if ongoing}}
-                            Present
-                        {{else}}
+                        {{#if endDate}}
                             {{endDate}}
+                        {{else}}
+                            Present
                         {{/if}}
                     </h4>
                     
                     <div class="more mobile-only">details</div>
                 
                     <div class="details">
+                        {{#each intro}}
+                            <p>{{{this}}}</p>
+                        {{/each}}
+
+                        {{#if bullets.length}}
+                        <ul>
+                        {{/if}}
+                            {{#each bullets}}
+                                <li>{{{this}}}</li>
+                            {{/each}}
+                        {{#if bullets.length}}
+                        </ul>
+                        {{/if}}
 
                     </div>
 
