@@ -1,61 +1,204 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>resume handlebars test</title>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-2.0.3.min.js"><\/script>')</script>
-        <script type="text/javascript" src="../js/vendor/handlebars-v1.3.0.js" /></script>
+<head>
+    <meta charset="utf-8" />
+    <title>HBS Shawn O'Neill - Resume</title>
+    <meta name="viewport" content="width=device-width" />
+    <!-- <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>     -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-2.2.0.min.js"><\/script>')</script>
+    <script type="text/javascript" src="../js/vendor/handlebars-v4.0.5.js" /></script>
 
-    </head>
-    <body>
-        <div id="jobs-target"></div>
+    <link rel="stylesheet" href="../css/all.css" />
+</head>
 
-        <script id="job-template" type="text/x-handlebars-template">
-            {{#each jobs}}
-                <article>
-                    <h2 class="position">{{position}}</h2>
-                    <h3>{{company}} - {{location}}</h3>
-                    <h4>{{startDate}} - 
-                        {{#if endDate}}
-                            {{endDate}}
-                        {{else}}
-                            Present
-                        {{/if}}
-                    </h4>
-                    
-                    <div class="more mobile-only">details</div>
+<body>
+    <!--[if lt IE 10]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <div class="shawnoneill" id="resume-name">
+            Sh<span class="squeeze">a</span>wn&nbsp;O'Neill
+        </div>
+
+        <div id="contact-info">
+            <p>shawn@shawnoneill.ca</p>
+            <p>Vancouver, BC</p>
+            <p>778.997.7673</p>
+        </div>
+    </header>
+
+    <div id="col-left">
+        <section id="employment"></section>
+        <section id="projects"></section>
+        <section id="education"></section>
+    </div>
+
+    <div id="col-right">
+        <div id="lists"></div>
+    </div>
+
+
+    <!-- DEFINE SOME TEMPLATES -->
+
+    <script id="jobs-template" type="text/x-handlebars-template">
+        <h1>Employment</h1>
+
+        {{#each jobs}}
+            <article id={{id}}>
+                <h2 class="position">{{{position}}}</h2>
+                <h3>{{company}} - {{location}}</h3>
+                <h4>{{startDate}} - 
+                    {{#if endDate}}
+                        {{endDate}}
+                    {{else}}
+                        Present
+                    {{/if}}
+                </h4>
                 
-                    <div class="details">
-                        {{#each intro}}
-                            <p>{{{this}}}</p>
-                        {{/each}}
-
-                        {{#if bullets.length}}
-                        <ul>
-                        {{/if}}
-                            {{#each bullets}}
-                                <li>{{{this}}}</li>
-                            {{/each}}
-                        {{#if bullets.length}}
-                        </ul>
-                        {{/if}}
-
-                    </div>
-
-                </article>
-            {{/each}}
+                <div class="more mobile-only">details</div>
             
-        </script>
+                <div class="details">
+                    {{#each intro}}
+                        <p>{{{this}}}</p>
+                    {{/each}}
 
-        <script src="jobs.js"></script>
+                    {{#if tasks.length}}
+                    <ul>
+                    {{/if}}
+                        {{#each tasks}}
+                            <li>{{{this}}}</li>
+                        {{/each}}
+                    {{#if tasks.length}}
+                    </ul>
+                    {{/if}}
+                </div>
 
-        <script>
-            $( document ).ready(function() {
-                // var jobs = $.getJSON("jobs.js");
-                var source = $("#job-template").html();
-                var template = Handlebars.compile(source);
-                $("#jobs-target").html(template(jobsVar));    
-            });
-        </script>
-    </body>
+            </article>
+        {{/each}}
+        
+    </script>
+
+    <script id="projects-template" type="text/x-handlebars-template">
+        <h1>Projects</h1>
+
+        {{#each projects}}
+            <article id={{id}}>
+                <h2 class="position">{{{title}}}</h2>
+                <h4>{{date}}</h4>
+                
+                <div class="details">
+                    {{#each intro}}
+                        <p>{{{this}}}</p>
+                    {{/each}}
+
+                    {{#if tasks.length}}
+                    <ul>
+                    {{/if}}
+                        {{#each tasks}}
+                            <li>{{{this}}}</li>
+                        {{/each}}
+                    {{#if tasks.length}}
+                    </ul>
+                    {{/if}}
+                </div>
+
+                <div class="project-links">
+                    {{#if url}}
+                    <a href={{url}}>{{url}}</a> <br/>
+                    {{/if}}
+                    {{#if repoUrl}}
+                    <a href={{repoUrl}}>{{repoUrl}}</a>
+                    {{/if}}
+                </div>
+
+            </article>
+        {{/each}}
+        
+    </script>
+
+    <script id="schools-template" type="text/x-handlebars-template">
+        <h1>Education</h1>
+
+        {{#each schools}}
+            <article id={{id}}>
+                <h2 class="position">{{{program}}}</h2>
+                <h3>{{school}}</h3>
+                <h4>{{date}}</h4>
+                
+                <div class="details">
+                    {{#each intro}}
+                        <p>{{{this}}}</p>
+                    {{/each}}
+
+                    {{#if tasks.length}}
+                    <ul>
+                    {{/if}}
+                        {{#each tasks}}
+                            <li>{{{this}}}</li>
+                        {{/each}}
+                    {{#if tasks.length}}
+                    </ul>
+                    {{/if}}
+                </div>
+
+            </article>
+        {{/each}}
+        
+    </script>
+
+    <script id="lists-template" type="text/x-handlebars-template">
+        
+        {{#each lists}}
+            <section id={{id}}>
+                <h2>{{{listName}}}</h2>
+                
+                {{#if items.length}}
+                <ul>
+                {{/if}}
+                    {{#each items}}
+                        <li>{{{this}}}</li>
+                    {{/each}}
+                {{#if items.length}}
+                </ul>
+                {{/if}}
+
+            </section>
+        {{/each}}
+        
+    </script>
+
+
+    <!-- LOAD SOME DATA -->
+
+    <script src="data/jobs.js"></script>
+    <script src="data/projects.js"></script>
+    <script src="data/schools.js"></script>
+    <script src="data/lists.js"></script>
+
+
+    <!-- JAM IT ALL TOGETHER -->
+
+    <script>
+        $( document ).ready(function() {
+            // var jobs = $.getJSON("jobs.js");
+            var source = $("#jobs-template").html();
+            var template = Handlebars.compile(source);
+            $("#employment").html(template(jobsVar));  
+
+            source = $("#projects-template").html();
+            template = Handlebars.compile(source);
+            $("#projects").html(template(projectsVar)); 
+
+            source = $("#schools-template").html();
+            template = Handlebars.compile(source);
+            $("#education").html(template(schoolsVar));  
+
+            source = $("#lists-template").html();
+            template = Handlebars.compile(source);
+            $("#lists").html(template(listsVar));    
+        });
+    </script>
+    <script src="../js/resume.js"></script>
+</body>
 </html>
