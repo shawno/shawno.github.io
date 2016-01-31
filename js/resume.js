@@ -3,6 +3,6 @@
 */
 $(document).ready(function() {
     $('.more').click(function() {
-        $(this).next('.details').slideToggle();
+        $(this).next('.collapse').slideToggle();
     })
 });

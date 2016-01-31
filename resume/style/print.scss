@@ -1,0 +1,83 @@
+/* ---- Utils ---- */
+
+.screen-only, .mobile-only{
+	display: none;
+}
+
+#print-button{
+	display:none;
+}
+
+.print-only{
+	display: block;
+}
+
+/* ---- Styles ---- */
+
+.project-links{
+	display: none;
+}
+
+article, .list{
+	page-break-inside: avoid;
+}
+
+section:last-of-type article:last-of-type{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#resume-name{
+	border-right:2px solid #999;
+	width:73.9%;
+	margin-bottom:0;
+	margin-top: -0.5em;
+}
+
+#contact-info{
+	position: absolute;
+	top:0;
+	right: 2em;
+	width:20%;
+	text-align:right;
+	line-height:0.8em;
+	
+	p{
+		padding-top:0.5em;
+	}
+}
+
+header{
+	margin-bottom:-0.5em;
+}
+
+body{
+	font-size: 10pt;
+}
+
+#col-right{
+	width:25%;
+}
+
+#education, #interests, #mun{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+
+#employment h2, 
+#employment	h3,
+.project h2,
+.project h4, 
+#education h3, 
+#education h4{
+	display: inline;
+	white-space: nowrap;
+}
+
+#languages, #tools, #interests{
+	h2{
+		margin-top:0.3em;
+	}
+}
+

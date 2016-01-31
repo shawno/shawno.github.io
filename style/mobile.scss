@@ -1,0 +1,110 @@
+body{
+	padding:0;
+	margin:0;
+	background:#333;
+	min-height:385px;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+svg{
+	width: 100%;
+	height: 100%;
+	fill: #eee;
+}
+
+#index-bg{
+	padding:0;
+	margin:0;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:-1;
+	overflow:none;
+	width:100%;
+}
+
+#index-name{
+	background: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 0.1em 0;
+}
+
+#index-nav{
+	position:absolute;
+	left:0;
+	width:100%;
+	text-align: center;
+	background:rgba(0,0,0,0.5);
+	margin-top:19%;
+	
+	a{
+		text-decoration:none;
+		color:#eee;
+		
+		:hover, :focus{
+			background: rgba(255,255,255,0.7);
+			box-shadow:0 0 10px #aaa;
+			color: rgb(50,50,50);
+			svg{
+				fill: rgb(50,50,50);
+			}
+		};
+		
+		div:hover, h1:hover, svg:hover{
+			background:none;
+			box-shadow:none;
+		}
+	}
+	
+	h1 {
+		font-size:15px;
+		font-weight:normal;
+		padding: 0;
+		margin: 0;
+		padding-top: 0.2em;
+	}
+}
+
+.button-icon{
+	padding-top:6px;
+	height:57%;
+	
+	img{
+		width:auto;
+		height:100%;
+	}
+}
+
+.index-nav-button{
+	background: rgba(0,0,0,0.7);
+	width: 70px;
+	height: 70px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.shawnoneill{
+	letter-spacing: -0.05em;
+	text-transform: uppercase;
+	
+	font:{
+		family: Quicksand, sans-serif;
+		size:2.3em;
+	}
+	
+	.squeeze{
+		letter-spacing: -0.13em;
+	}
+}
+

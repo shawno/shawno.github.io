@@ -1,8 +1,12 @@
-@import '../stylesheets/normalize';
-@import '../stylesheets/mobile';
+@import '../style/normalize';
+
+@import '../style/mobile';
+@import '../resume/style/mobile';
+
 @media screen and (min-width: 700px), print{
-	@import '../stylesheets/tablet';
+	@import '../style/tablet';
+	@import '../resume/style/tablet'
 }
 @media print{
-	@import '../stylesheets/print';	
+	@import '../resume/style/print';	
 }

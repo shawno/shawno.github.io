@@ -12,10 +12,10 @@ var schoolsVar =  {
             "program"  : "MEC Leadership Training",
             "date"     : "December 2013",
             "intro"    : [ "Management training sessions focussed on developing leadership skills." ],
-            "tasks"    : [ "Personal Leadership: identify strengths and values",
-                           "Coaching Skills: listening, questioning, appreciative discovery, and giving feedback.",
-                           "Assertiveness and Influence: communicating to transform conflict into collaboration",
-                           "Leading Dynamic Individuals and Teams: building and leading high performance teams" ] 
+            "tasks"    : [ "Personal Leadership: identifying strengths and values.",
+                           "Coaching Skills: listening, questioning, mentoring, and giving feedback.",
+                           "Assertiveness and Influence: transforming conflict into collaboration",
+                           "Leading Dynamic Individuals and Teams" ] 
         },
         {
             "program"  : "Interaction Design Practicum",

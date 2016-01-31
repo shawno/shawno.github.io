@@ -16,34 +16,32 @@ var jobsVar =  {
             "startDate" : "November 2014",
             "location"  : "Vancouver, BC",
             "intro"     : [ "I lead the front-end development activities on a number of MEC's digital properties, including the complete replatform and responsive rebuild of the ecommerce store, MEC.ca.",
-                            "I focus on initiatives to increase developer throughput, code maintainability, and team satisfaction, while delivering a beautiful, usable end product." ],
-            "tasks"     : [ "Reinvented the design and development workflow, focussing on rapid, collaborative prototyping in code, over designing high-fidelity static comps in Photoshop.",
-                            "Grew and managed the Front-End development team from a sole developer, to a team of 6 developers, plus myself.",
+                            "I focus on initiatives to increase velocity, maintainability, and team satisfaction, while delivering a beautiful, usable end product." ],
+            "tasks"     : [ "Reinvented the design and development workflow, focussing on rapid, collaborative prototyping in code, over high-fidelity static comps.",
+                            "Grew and managed the team from one person, to a group of six.",
                             "Pioneered the first MEC digital style guide, and pattern library, based on Atomic Design principles.",
                             "Created the first MEC Web Performance Budget: a set of targets for actual and perceived page load times.",
-                            "Instituted a multi-tiered browser, OS, and mobile device support model, and testing strategy.",
-                            "Managed code repositories, reviews, quality, and pull requests using the Gitflow branching strategy.",
-                            "Coordinated with stakeholders, BAs, PMs, designers, and developers",
-                            "Reprisented the team in estimation, planning, and scope negotiation discussions with Operations, Marketing, and QA teams.",
-                            "Refined, sequenced, and architected backlog tasks for the team, focussing on delivering an MVP as quickly as possible, and quick iteration with stakeholders.",
+                            "Instituted a multi-tiered browser, OS support model and testing strategy.",
+                            "Managed code reviews using the Gitflow branching strategy.",
+                            "Represented the team in estimation, planning, and scope discussions with stakeholders, BAs, PMs, designers, marketing, and QA teams.",
+                            "Refined, sequenced, and disected upoming stories, focussing on delivering an MVP quickly and iterating with stakeholders from there.",
                             "Educated the business and coached the team on modern web best practices, performance, and collaboration models." ]
         },
         {
             "company"   : "Mountain Equipment Co-op",
-            "position"  : "Senior Software Developer - E&#8209;commerce",
+            "position"  : "Senior Software Developer - E-commerce",
             "startDate" : "March 2013",
             "endDate"   : "November 2014",
             "location"  : "Vancouver, BC",
-            "intro"     : [ "I built and maintained various MEC digital properties and apps, acting as a firm advocate for usability, and the comprehensive member experience across all MEC digital properties." ],
-            "tasks"     : [ "Collaborated closely with Marketing, Operations, and QA teams.", 
-                            " Acted as the interaction design and usability subject matter expert - particularly for touch, mobile, and tablet.",
+            "intro"     : [ "I built and maintained several of MEC's digital properties, acting as a firm advocate for usability, and user experience." ],
+            "tasks"     : [ " Acted as the interaction design and usability subject matter expert - particularly for touch, mobile, and tablet.",
                             "Piloted the development on the rebranding of MEC.ca, which launched smoothly to over four million members, in September 2013.",
                             "Led front-end development on MEC's mobile ecommerce website, built with Backbone.js, leveraging the existing RESTful MEC shop API.",
-                            "Increased co-op voter turnout to the highest level in 15 years with the design and development of a fully responsive MEC Election website for 2014 and beyond, focussing on usability across all platforms. Resulted in more than a 100% increase in votes cast over the previous site." ]
+                            "Increased voter turnout to the highest level in 15 years with the creation of a responsive MEC Election website for 2014, focussing on usability across all platforms. Resulted in more than a 100% increase in votes cast over the old site." ]
         },
         {
             "company"   : "Freelance",
-            "position"  : "Full-stack Web Software Consultant",
+            "position"  : "Full-Stack Web Software Consultant",
             "startDate" : "October 2012",
             "location"  : "Vancouver, BC",
             "intro"     : [ "I help companies with software development projects ranging from product management to complete rebuilds, and everything in between.", 
@@ -68,8 +66,8 @@ var jobsVar =  {
             "intro"     : [ "Managed a regulatory reporting project from research to release. Tasks included customer interviews, design, prototyping, user testing, implementation, QA and rollout.", 
                             "Collaborated closely with customers, users, and regulators externally, as well as the product owner, development, support, training, and documentation teams internally." ]
             
-        },
-        {
+        }
+        ,{
             "company"   : "Verafin",
             "position"  : "User Interface Developer/Designer",
             "startDate" : "October 2008",

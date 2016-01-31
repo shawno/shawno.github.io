@@ -1,20 +1,16 @@
-/** tablet.scss **/
+/* ---- Utils ---- */
 
-header{
-	margin:0 1em;
+.mobile-only{
+	display: none;
 }
 
-.shawnoneill{
-	font-size:3.5em;
-}
-
-/*********** RESUME STYLEZ ************/
+/* ---- Styles ---- */
 
 body{
 	margin-top:0.5em;
 }
 
-.details{
+.collapse{
 	display:block;
 }
 
@@ -83,7 +79,7 @@ article{
 	top: 6em;		
 }
 
-#mec, #hci, #cooper{
+article:first-of-type{
 	margin-top: -1em;
 }
 
@@ -91,6 +87,3 @@ article{
 	margin-top: 1.3em;
 }
 
-.mobile-only{
-	display: none;
-}
