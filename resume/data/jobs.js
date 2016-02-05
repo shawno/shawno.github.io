@@ -67,26 +67,26 @@ var jobsVar =  {
                             "Collaborated closely with customers, users, and regulators externally, as well as the product owner, development, support, training, and documentation teams internally." ]
             
         }
-        ,{
-            "company"   : "Verafin",
-            "position"  : "User Interface Developer/Designer",
-            "startDate" : "October 2008",
-            "endDate"   : "August 2010",
-            "location"  : "St. John's, NL",
-            "intro"     : [ "Member of the Interaction Design and Development team, focussed on streamlining tasks for detecting and reporting fraud and money launding at over 600 financial institutions."
-                          ],
-            "tasks"     : [ "Designed and implemented an alert and case management system for tracking and reporting suspicious activity to law enforcement.",
-                            "Overhauled suspicious activity reports for greater usability, editability and database persistence.",
-                            "Interviewed and supervised Computer Engineering work term students." ] 
-        },
-        {
-            "company"   : "Logitech",
-            "position"  : "New Technology Investigation Intern",
-            "startDate" : "September 2007",
-            "endDate"   : "December 2007",
-            "location"  : "Fremont, California",
-            "tasks"     : [ "Investigated and prototyped tracking an IR LED in unfiltered video frames using MATLAB.",
-                            "Designed and successfully implemented a tracking algorithm using spatio-temporal blob analysis."] 
-        }
+        // ,{
+        //     "company"   : "Verafin",
+        //     "position"  : "User Interface Developer/Designer",
+        //     "startDate" : "October 2008",
+        //     "endDate"   : "August 2010",
+        //     "location"  : "St. John's, NL",
+        //     "intro"     : [ "Member of the Interaction Design and Development team, focussed on streamlining tasks for detecting and reporting fraud and money launding at over 600 financial institutions."
+        //                   ],
+        //     "tasks"     : [ "Designed and implemented an alert and case management system for tracking and reporting suspicious activity to law enforcement.",
+        //                     "Overhauled suspicious activity reports for greater usability, editability and database persistence.",
+        //                     "Interviewed and supervised Computer Engineering work term students." ] 
+        // },
+        // {
+        //     "company"   : "Logitech",
+        //     "position"  : "New Technology Investigation Intern",
+        //     "startDate" : "September 2007",
+        //     "endDate"   : "December 2007",
+        //     "location"  : "Fremont, California",
+        //     "tasks"     : [ "Investigated and prototyped tracking an IR LED in unfiltered video frames using MATLAB.",
+        //                     "Designed and successfully implemented a tracking algorithm using spatio-temporal blob analysis."] 
+        // }
     ]
 };
