@@ -14,6 +14,20 @@
 
 /* ---- Styles ---- */
 
+@page  
+{ 
+    size: auto;   /* auto is the initial value */ 
+
+    /* this affects the margin in the printer settings */ 
+    margin: 16mm 10mm 15mm 10mm;  
+} 
+
+body{
+	font-size: 12pt;
+	line-height:1.1;
+    margin: 0px;  
+}
+
 .project-links{
 	display: none;
 }

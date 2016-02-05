@@ -24,7 +24,7 @@ var jobsVar =  {
                             "Instituted a multi-tiered browser, OS support model and testing strategy.",
                             "Managed code reviews using the Gitflow branching strategy.",
                             "Represented the team in estimation, planning, and scope discussions with stakeholders, BAs, PMs, designers, marketing, and QA teams.",
-                            "Refined, sequenced, and disected upoming stories, focussing on delivering an MVP quickly and iterating with stakeholders from there.",
+                            "Refined, sequenced, and dissected upcoming stories, focussing on delivering an MVP quickly and iterating with stakeholders from there.",
                             "Educated the business and coached the team on modern web best practices, performance, and collaboration models." ]
         },
         {

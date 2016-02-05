@@ -14,8 +14,8 @@ var schoolsVar =  {
             "intro"    : [ "Management training sessions focussed on developing leadership skills." ],
             "tasks"    : [ "Personal Leadership: identifying strengths and values.",
                            "Coaching Skills: listening, questioning, mentoring, and giving feedback.",
-                           "Assertiveness and Influence: transforming conflict into collaboration",
-                           "Leading Dynamic Individuals and Teams" ] 
+                           "Assertiveness and Influence: transforming conflict into collaboration.",
+                           "Leading Dynamic Individuals and Teams." ] 
         },
         {
             "program"  : "Interaction Design Practicum",
