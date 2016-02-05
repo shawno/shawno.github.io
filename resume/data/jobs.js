@@ -15,17 +15,18 @@ var jobsVar =  {
             "position"  : "Front-End Web Development Team Lead",
             "startDate" : "November 2014",
             "location"  : "Vancouver, BC",
-            "intro"     : [ "I lead the front-end development activities on a number of MEC's digital properties, including the complete replatform and responsive rebuild of the ecommerce store, MEC.ca.",
-                            "I focus on initiatives to increase velocity, maintainability, and team satisfaction, while delivering a beautiful, usable end product." ],
-            "tasks"     : [ "Reinvented the design and development workflow, focussing on rapid, collaborative prototyping in code, over high-fidelity static comps.",
+            "intro"     : [ "I lead front-end development activities on a number of MEC's digital properties, including a complete replatform and responsive rebuild of the ecommerce store, MEC.ca.",
+                            "I focus on initiatives to increase throughput, maintainability, and team satisfaction, while delivering a beautiful, usable end product." ],
+            "tasks"     : [ "Educated the business and coached the team on modern web best practices, performance, and collaboration models.",
+                            "Represented the team in estimation, planning, and scope discussions with stakeholders, BAs, PMs, designers, marketing, and QA teams.",
+                            "Reinvented the design and development workflow, focussing on rapid, collaborative prototyping in code, rather than high-fidelity static comps.",
                             "Grew and managed the team from one person, to a group of six.",
                             "Pioneered the first MEC digital style guide, and pattern library, based on Atomic Design principles.",
                             "Created the first MEC Web Performance Budget: a set of targets for actual and perceived page load times.",
                             "Instituted a multi-tiered browser, OS support model and testing strategy.",
                             "Managed code reviews using the Gitflow branching strategy.",
-                            "Represented the team in estimation, planning, and scope discussions with stakeholders, BAs, PMs, designers, marketing, and QA teams.",
-                            "Refined, sequenced, and dissected upcoming stories, focussing on delivering an MVP quickly and iterating with stakeholders from there.",
-                            "Educated the business and coached the team on modern web best practices, performance, and collaboration models." ]
+                            "Refined, sequenced, and dissected upcoming stories, focussing on delivering an MVP quickly and iterating with stakeholders from there."
+                          ]
         },
         {
             "company"   : "Mountain Equipment Co-op",
