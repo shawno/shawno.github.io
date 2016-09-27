@@ -1,6 +1,5 @@
 var jobsVar =  {
     jobs : [
-        {
         // {
         //     "id"        : "",
         //     "company"   : "",
@@ -11,12 +10,22 @@ var jobsVar =  {
         //     "intro"     : [ "intro 1.", "intro 2." ],
         //     "tasks"     : [ "task 1", "task 2" ] 
         // },
+        {
+            "company"   : "New District",
+            "position"  : "Director of Engineering",
+            "startDate" : "July 2016",
+            "location"  : "Vancouver, BC",
+            // "intro"     : [ "intro 1.", "intro 2." ],
+            // "tasks"     : [ "task 1", "task 2" ] 
+        },
+        {
             "company"   : "Mountain Equipment Co-op",
             "position"  : "Front-End Web Development Team Lead",
             "startDate" : "November 2014",
+            "endDate"   : "June 2016",
             "location"  : "Vancouver, BC",
-            "intro"     : [ "I lead front-end development activities on a number of MEC's digital properties, including a complete replatform and responsive rebuild of the ecommerce store, MEC.ca.",
-                            "I focus on initiatives to increase throughput, maintainability, and team satisfaction, while delivering a beautiful, usable end product." ],
+            "intro"     : [ "I led front-end development activities on a number of MEC's digital properties, including a complete replatform and responsive rebuild of the ecommerce store, MEC.ca.",
+                            "I focussed on initiatives to increase throughput, maintainability, and team satisfaction, while delivering a beautiful, usable end product." ],
             "tasks"     : [ "Educated the business and coached the team on modern web best practices, performance, and collaboration models.",
                             "Represented the team in estimation, planning, and scope discussions with stakeholders, BAs, PMs, designers, marketing, and QA teams.",
                             "Reinvented the design and development workflow, focussing on rapid, collaborative prototyping in code, rather than high-fidelity static comps.",
