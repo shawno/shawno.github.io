@@ -1,7 +1,6 @@
 var jobsVar =  {
     jobs : [
         // {
-        //     "id"        : "",
         //     "company"   : "",
         //     "position"  : "",
         //     "startDate" : "",
@@ -15,8 +14,19 @@ var jobsVar =  {
             "position"  : "Director of Engineering",
             "startDate" : "July 2016",
             "location"  : "Vancouver, BC",
-            // "intro"     : [ "intro 1.", "intro 2." ],
-            // "tasks"     : [ "task 1", "task 2" ] 
+            "intro"     : [ "I lead software development at New District. I am in charge of keeping our digital properties up and running, while pushing the envelope on what it means to shop for wine.", 
+                           "In a small team, I wear many hats throughout the day: Software Development Manager, Architect, Scrum Master, Product Owner, UX Designer, Web Analyst, Digital Strategist, Project Manager, Tech Recruiter, Conversion Rate Optimizer, and Whiteboard Chicken Scratcher." ],
+            "tasks"     : [ "Reported directly to the CEO.", 
+                            "Created monthly executive strategy planning sessions, ensuring cross-departmental alignment on high level initiatives",
+                            "Replaced outsourced dev contractors with an internal team, cutting team burn rate by 33% in 5 months, and 50% in 20 months.",
+                            "Increased eCommerce conversion rate by more than 1000% over 18 months.",
+                            "Increased web capacity/stability 100x. Holiday season 2017 saw zero downtime, with no developer intervention. Driving toward 4 nines availability for eCommerce website. 100% uptime for Q1 2018.",
+                            "Implemented full stack CI/CD with autonomous regression testing and deployments directly to staging environment.",
+                            "Enacted SDLC best practices, increased backlog visibility, built a lean development culture around build-measure-learn, launching an MVP as early as possible, and Scrum/Agile.",
+                            "Established reliable team velocity/throughput metrics, allowing predictable delivery forecasting.",
+                            "Managed product backlogs for a half dozen applications, both internal and external facing.",
+                            "Educated the company on software development best practices, processes, challenges, methodologies, supporting other team leads to adopt some parts on their own teams."
+                          ] 
         },
         {
             "company"   : "Mountain Equipment Co-op",
