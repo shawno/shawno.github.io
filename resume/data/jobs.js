@@ -10,17 +10,29 @@ var jobsVar =  {
         //     "tasks"     : [ "task 1", "task 2" ] 
         // },
         {
+            "company"   : "shawnoneill.ca",
+            "position"  : "Digital Consultant",
+            "startDate" : "October 2012",
+            "endDate"   : "",
+            "location"  : "Vancouver, BC and Remote",
+            "intro"     : [ "I provide \"CDO/CPO/CTO for hire\" consultation for companies and founders which may not have the bandwidth or capital for a permanent hire in that seat, and could really use a short-term boost on the Product/Engineering side of their business.", 
+                            "Current Clients:" ],
+            "tasks"     : [ "Sew Many Stitches was struggling to establish a web presence, and required some launch scope negotiation with their developer, as well as hosting, UX, SEO, and rollout assistance. One month after I joined, sewmanystitches.ca was live.",
+                            "MEC is transforming the nature of their previously separate ecommerce development, and operations teams to a collection of small, high-performance, cross-departmental squads. I am aiding in this transition as a Digital Product Manager focussing on Web Performance. Within three months, mec.ca was 20% faster, had 2x the traffic capacity on the same server hardware, and their ecommerce conversion rate was 15% higher; representing a $10M annual revenue lift." ] 
+        },
+        {
+
             "company"   : "New District",
             "position"  : "Director of Engineering",
             "startDate" : "July 2016",
+            "endDate"   : "April 2018",
             "location"  : "Vancouver, BC",
-            "intro"     : [ "I lead software development at New District. I am in charge of keeping our digital properties up and running, while pushing the envelope on what it means to shop for wine.", 
-                           "In a small team, I wear many hats throughout the day: Software Development Manager, Architect, Scrum Master, Product Owner, UX Designer, Web Analyst, Digital Strategist, Project Manager, Tech Recruiter, Conversion Rate Optimizer, and Whiteboard Chicken Scratcher." ],
+            "intro"     : [ "In a small team, I wear many hats throughout the day: Software Development Manager, Architect, Scrum Master, Product Owner, UX Designer, Web Analyst, Digital Strategist, Project Manager, Tech Recruiter, Conversion Rate Optimizer, and Whiteboard Chicken Scratcher." ],
             "tasks"     : [ "Reported directly to the CEO.", 
                             "Created monthly executive strategy planning sessions, ensuring cross-departmental alignment on high level initiatives",
                             "Replaced outsourced dev contractors with an internal team, cutting team burn rate by 33% in 5 months, and 50% in 20 months.",
                             "Increased eCommerce conversion rate by more than 1000% over 18 months.",
-                            "Increased web capacity/stability 100x. Holiday season 2017 saw zero downtime, with no developer intervention. Driving toward 4 nines availability for eCommerce website. 100% uptime for Q1 2018.",
+                            "Increased web capacity/stability 100x. Holiday season 2017 saw zero downtime, with no developer intervention. Driving toward 4 nines availability. 100% uptime for Q1 2018.",
                             "Implemented full stack CI/CD with autonomous regression testing and deployments directly to staging environment.",
                             "Enacted SDLC best practices, increased backlog visibility, built a lean development culture around build-measure-learn, launching an MVP as early as possible, and Scrum/Agile.",
                             "Established reliable team velocity/throughput metrics, allowing predictable delivery forecasting.",
@@ -59,16 +71,16 @@ var jobsVar =  {
                             "Led front-end development on MEC's mobile ecommerce website, built with Backbone.js, leveraging the existing RESTful MEC shop API.",
                             "Increased voter turnout to the highest level in 15 years with the creation of a responsive MEC Election website for 2014, focussing on usability across all platforms. Resulted in more than a 100% increase in votes cast over the old site." ]
         },
-        {
-            "company"   : "Freelance",
-            "position"  : "Full-Stack Web Software Consultant",
-            "startDate" : "October 2012",
-            "location"  : "Vancouver, BC",
-            "intro"     : [ "I help companies with software development projects ranging from product management to complete rebuilds, and everything in between.", 
-                            "I design and build simple, useful interfaces. Simple is hard. I do the hard work so that your users don't have to.",
-                            "I speak both tech and English equally well. If you aren't sure what you need, I can help with that too."
-                          ]
-        },
+        // {
+        //     "company"   : "Freelance",
+        //     "position"  : "Full-Stack Web Software Consultant",
+        //     "startDate" : "October 2012",
+        //     "location"  : "Vancouver, BC",
+        //     "intro"     : [ "I help companies with software development projects ranging from product management to complete rebuilds, and everything in between.", 
+        //                     "I design and build simple, useful interfaces. Simple is hard. I do the hard work so that your users don't have to.",
+        //                     "I speak both tech and English equally well. If you aren't sure what you need, I can help with that too."
+        //                   ]
+        // },
         {
             "company"   : "Funl",
             "position"  : "Co-Founder",

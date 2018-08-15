@@ -179,7 +179,7 @@
     <!-- LOAD SOME DATA -->
 
     <script src="data/jobs.js"></script>
-    <script src="data/projects.js"></script>
+    <!-- <script src="data/projects.js"></script> -->
     <script src="data/schools.js"></script>
     <script src="data/lists.js"></script>
 
@@ -193,9 +193,9 @@
             var template = Handlebars.compile(source);
             $("#employment").html(template(jobsVar));  
 
-            source = $("#projects-template").html();
-            template = Handlebars.compile(source);
-            $("#projects").html(template(projectsVar)); 
+            // source = $("#projects-template").html();
+            // template = Handlebars.compile(source);
+            // $("#projects").html(template(projectsVar)); 
 
             source = $("#schools-template").html();
             template = Handlebars.compile(source);

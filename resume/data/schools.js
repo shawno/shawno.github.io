@@ -18,18 +18,18 @@ var schoolsVar =  {
                            "Leading Dynamic Individuals and Teams." ] 
         },
         {
-            "program"  : "Interaction Design Practicum",
+            "program"  : "Interaction Design",
             "school"   : "Cooper - San Francisco, CA",
-            "date"     : "November 2011",
-            "intro"    : [ "A hands-on workshop in goal-directed design for digital products." ]
+            "date"     : "November 2011"
+            // "intro"    : [ "A hands-on workshop in goal-directed design for digital products." ]
         },
         {
             "program"  : "Bachelor of Computer Engineering",
             "school"   : "Memorial University of Newfoundland",
-            "date"     : "Class of 2008",
-            "tasks"    : [ "IEEE Award for best senior project demo.",
-                           "Represented Memorial at the 2006 and 2008 Computer Science Games.",
-                           "Dean's list student." ] 
+            "date"     : "Class of 2008"
+            // "tasks"    : [ "IEEE Award for best senior project demo.",
+            //                "Represented Memorial at the 2006 and 2008 Computer Science Games.",
+            //                "Dean's list student." ] 
         },
     ]
 };
